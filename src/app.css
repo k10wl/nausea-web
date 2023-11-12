@@ -4,10 +4,12 @@
 
 body {
 	@apply text-white;
-	background: black;
-	background-image: url("/home-bg.jpg");
-	background-size: cover; /* Cover the entire viewport */
-	background-repeat: no-repeat; /* Do not repeat the image */
-	background-attachment: fixed; /* Fix the background relative to the viewport */
-	background-position: center; /* Center the image in the page */
+	background: url("/home-bg.jpg"), #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+	height: 100vh;
+	height: 100dvh;
 }
